@@ -8,16 +8,16 @@ Dataset Information:
 
 The data contains the resale price of HDB flats and the location from 2000 to 2023 May.
 
-Month: Stored in YYYY-MM Format
-Town: Singapore Towns such as Ang Mo Kio, Bishan, etc.
-Flat Types: 1 Room, 2 Room, ..., Executive, Generational.
-Block: Flat Block Number
-Street Name: Flat Street
-Storey_range: Flat story in a range
-Floor_area_sqm: Flat size
-Flat_model: Improved, New Generation, Standard, ...
-Lease_commence_date: Date the flat was leased
-Resale_price: The resale price of the flat
+- Month: Stored in YYYY-MM Format
+- Town: Singapore Towns such as Ang Mo Kio, Bishan, etc.
+- Flat Types: 1 Room, 2 Room, ..., Executive, Generational.
+- Block: Flat Block Number
+- Street Name: Flat Street
+- Storey_range: Flat story in a range
+- Floor_area_sqm: Flat size
+- Flat_model: Improved, New Generation, Standard, ...
+- Lease_commence_date: Date the flat was leased
+- Resale_price: The resale price of the flat
 
 ## Analysis
 
