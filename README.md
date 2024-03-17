@@ -19,6 +19,12 @@ The data contains the resale price of HDB flats and the location from 2000 to 20
 - Lease_commence_date: Date the flat was leased
 - Resale_price: The resale price of the flat
 
+## Guide on running the project locally
+
+1. Clone the repository on VSCode (or any other programming software with in-built live servers).
+2. Install Live Server
+3. Right-click the index.html and press 'Open with Live Server'
+    
 ## Analysis
 
 I analyzed the HDB resale price and units sold in different flat types and towns. I excluded 1 ROOM and MULTI-GENERATION flat types as they have a high percentage of null values in the dataset.
