@@ -1,0 +1,93 @@
+#chart-area svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo {
+height:50px;
+}
+
+.navbar-brand {
+height: 60px;
+padding: 5px 0px;
+}
+
+body {
+background-color: #F1F3F3    
+}
+
+.axis {
+font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+fill: none;
+stroke: #D4D8DA;
+stroke-width: 2px;
+shape-rendering: crispEdges;
+}
+
+.line {
+fill: none;
+stroke-width: 2px;
+}
+
+.overlay {
+fill: none;
+pointer-events: all;
+}
+
+.focus circle {
+fill: #F1F3F3;
+stroke: #777;
+stroke-width: 3px;
+}
+
+.hover-line {
+stroke: #777;
+stroke-width: 2px;
+stroke-dasharray: 3,3;
+}
+
+#selections .col-md-4 {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.tooltip {
+  text-align: center;
+  padding: 4px;
+  font-size: 12px;
+  background: #f7f7f7;
+  border: 1px solid #000000;
+  width: 15%;
+  border-radius: 4px;
+  pointer-events: none; /* prevent the cursor from selecting texts */
+}
+
+.tooltip :hover {
+  color: black;
+}
+#annotation-box {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  width: 180px;
+  height: 20px;
+}
+
+#annotation-box-2 {
+  position: absolute;
+  top: 60px;
+  left: 500px;
+  width: 180px;
+  height: 20px;
+}
+
+#annotation-text {
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+}
